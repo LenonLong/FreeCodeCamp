@@ -5,7 +5,7 @@
 function factorialize(num) {
    var total = 1;
    for(var i = 1; i <= num; i++) {
-     total *= num;
+     total *= i;
    }
    return total;
 }
