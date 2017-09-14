@@ -12,7 +12,9 @@ var newStr = str.toLowerCase().split(' ').map(function(str) {
 titleCase("I'm a little tea pot");
 ```
 
-## First we have lowercase and split the str.
-## We then use the .map function which provides a callback for each of the words in the string.
-## As we iterate over every word, we use the **toUpperCase()** to capitalize the first letter in our string **.charAt(0)** and then end it by using the **slice()** method.
-## We then use the **join()** method to join it all back together. 
+<details>
+<p> First we have lowercase and split the str. </p>
+<p>We then use the .map function which provides a callback for each of the words in the string. </p>
+<p> As we iterate over every word, we use the **toUpperCase()** to capitalize the first letter in our string **.charAt(0)** and then end it by using the **slice()** method. </p>
+<p> We then use the **join()** method to join it all back together. </p>
+</details>
