@@ -4,7 +4,7 @@
 ```javascript
 function findLongestWord(str) {
 // we want to split the individual word by using .split()
-var splitStr = str
+var splitStr = str.split(' ');
 // we need to store a total
 var total = 0;
 // loop through .length
