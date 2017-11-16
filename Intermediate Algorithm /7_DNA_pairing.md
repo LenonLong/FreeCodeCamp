@@ -12,7 +12,7 @@ The character and its pair are paired up in an array, and all the arrays are gro
 
 ```javascript
 
-funciton pairElement(str) {
+function pairElement(str) {
   var pairs = {A: 'T', T: 'A', C: 'G', G: 'C'};
 
   str.split('').map(function(key) {
